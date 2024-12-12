@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+public class MyAtmapp {
+	static double balance = 5000.0;
+	static int originalpin = 1234;
+	
+	public static boolean authentication (int pin) {
+		if(pin == originalpin) {
+			return true;
+		}
+		return false;
+		}
+	public static void main(String[]args) {
+		Scanner in = new Scanner(System.in);
+		int option = 0;
+		do { 
+		System.out.println("ATM APPLICATION");
+		System.out.println("---------------");
+		System.out.println("1.Balance Check");
+		System.out.println("2. Deposite Amount");
+		System.out.println("3.Withdraw Amount");
+		System.out.println("0. Exit");
+		System.out.println("Please select option:");
+		option = in.nextInt();
+		switch (option) {
+		case 1:
+			System.out.println("please enter pin:");
+			int pin = in.nextInt();
+			
+			if(authenticat(pin)) {
+				System.out.println("Balance:"+balance);
+			}else {
+				System.out.println("Invalid pin");
+			}
+		    break;
+		    
+		case 2:
+			System.out.println("please enter pin");
+			int pin = in.nextInt();
+			if(authenticat(pin)) {
+				System.out.println("Balance:"+deposite);
+			}else {
+				System.out.println("Invalid pin");
+			}
+			break;
+			
+		case 3:
+			System.out.println("please enter pin");
+			int pin = in.nextInt();
+			if(authenticat(pin)) {
+			System.out.println("Balance:"+withdraw);
+			}else {
+				System.out.println("Invalid pin");
+			}
+			break;
+		case 0:
+			System.out.println("Thank you for using ATM");
+			System.out.println("Have a nice day!");
+			System.exit(0);//Terminate JVM
+			break;
+		default:
+			System.out.println("Invalid option!");
+			break;
+		}
+		} while (option !=0);
+			
+		}
+		
+	}
+

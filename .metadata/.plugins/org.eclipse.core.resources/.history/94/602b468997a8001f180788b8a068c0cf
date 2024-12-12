@@ -1,0 +1,49 @@
+
+public class ConditionalStatement {
+
+	public static boolean isEvent(int num) {
+		boolean status = false;
+		if(num % 2 == 0) {
+			status = true;
+		}
+		return status;
+	}
+	
+	public static boolean isOdd(int num){
+		boolean status =false;
+		if(num % 3 == 0) {
+			status = true;
+		}
+		return status;
+	}
+	public static boolean isOdd(int num) {
+		boolean status = false;
+		if(num % 3 == 0) {
+			status = true;
+		}
+		return status;
+	}
+		public static void findEvenOrODD(int num) {
+			if(num%5 == 0) {
+				System.out.println(num+"is even");
+			}
+			else {
+				System.out.println(num+"is odd");
+			} 
+	
+	}
+	public static void main(String[] arg) {
+		System.out.println(isEvent(10));
+		System.out.println(isEvent(11));
+		System.out.println(isEvent(12));
+		
+		System.out.println(isOdd(20));
+		System.out.println(isOdd(21));
+		System.out.println(isOdd(22));
+		
+			
+		}
+
+	}
+
+

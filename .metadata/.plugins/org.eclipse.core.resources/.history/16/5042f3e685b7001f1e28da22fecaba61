@@ -1,0 +1,32 @@
+package com.edubridge.maven_project;
+
+import org.junit.jupiter.api.Assertions;
+
+import org.junit.jupiter.api.Test;
+
+import com.edubridge.maven_project1.Calc;
+
+
+public class CalcTest {
+	public void testFindSquare() {
+		Calc c = new Calc();
+		int actual = c.findSquare(10);
+		int expected = 100;
+		
+		Assertions.assertEquals(expected,actual);
+		
+}
+	
+	@Test
+	public void testFindCube( ) {
+		Calc c = new calc();
+		int actual = c.findCube(10);
+		int expected = 1000;
+		Assertion.assertEquals(expected, actual);
+		
+	}
+	
+
+	
+
+}

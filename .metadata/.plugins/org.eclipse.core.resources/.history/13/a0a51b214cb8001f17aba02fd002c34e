@@ -1,0 +1,14 @@
+package com.edubridge.maven_project1;
+
+public class AuthService {
+	String userName = "admin";
+	String UserPassword ="admin123";
+	
+	public boolean authenticate (String userName,String userPassword);
+	
+
+	public AuthService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

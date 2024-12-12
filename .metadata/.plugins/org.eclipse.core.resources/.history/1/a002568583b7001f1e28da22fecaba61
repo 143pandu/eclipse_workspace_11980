@@ -1,0 +1,14 @@
+package com.edubridge.maven_project1;
+
+public class CalcTest {
+
+	public CalcTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

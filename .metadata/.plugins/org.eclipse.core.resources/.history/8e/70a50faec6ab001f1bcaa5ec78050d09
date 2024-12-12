@@ -1,0 +1,19 @@
+
+public class Employee {
+
+	public static void main(String[] args) {
+		String[] employee = {"Wills", "Smith", "Alex" ,"Anna"};"
+				
+	  for(String employee:employees) {
+		  System.out.println(employee);
+	  }
+	  
+
+	
+		
+		
+		
+
+
+
+

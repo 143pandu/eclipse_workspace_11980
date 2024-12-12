@@ -1,0 +1,22 @@
+
+public class EmployeeTest {
+	public static void main(String[]args){
+		//Object Creation or Instantiation
+		Employee e1 = new Employee(1001,"Wills", 45000.0);
+		
+		//Accessing Instance props
+		System.out.println(e1.employeeId);
+		System.out.println(e1.employeeName);
+		System.out.println(e1.employeeSalary);
+		
+		//Accessing Static props
+		System.out.println(e1.employeeOrganization);
+		System.out.println(Employee.employeeOrganization);
+		
+		e1.displayDetails();
+		
+		
+		
+	}
+
+}

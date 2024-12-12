@@ -1,0 +1,11 @@
+import java.util.Arrays;
+public class AscendingorderDescendingorder{
+	public static void main(String[]args) {;
+	int arr[] = {55,44,99,77,88,66};
+	Arrays.sort(arr);//Ascendingorder;
+	System.out.println(Arrays.to String (array));
+	
+	
+	}
+
+}

@@ -1,0 +1,50 @@
+import java.until.Scanner;
+
+public class Student {
+    public static void main(String[] args) {
+         Scanner in =new Scanner(System.in);
+         
+       System.out.println("please enter student id:");
+     		int studentId =in.nextInt();
+     		
+     		System.out.println("please enter student name:");
+     		String studentName =in.next();
+     		
+     		System.out.println("please enter student cgpa:");
+     		double studentCgpa =in.nextDouble();
+     		
+     		System.out.println("please enter student dob:");
+    		string studentDob =in.nextString();
+    		
+    		System.out.println("please enter student percentage:");
+    		double studentPercentage =in.nextDouble();
+    		
+    		System.out.println("please enter student age:");
+    		int studentAge =in.nextInt();
+    		
+    		System.out.println("please enter student gender:");
+    		char studentGender =in.nextChar();
+    		
+    		System.out.println("please enter student father name:");
+    		string studentFathername =in.nextString();
+    		
+    		System.out.println("please enter student mother name:");
+    		string studentMothername =in.nextString();
+    		
+     		
+     		
+     		System.out.println("StudentId:"+studentId);
+     		System.out.println("Student Name:"+studentName);
+     		System.out.println("StudentCgpa:"+studentCgpa);
+            System.out.println("StudentDob:"+studentDob);
+     		System.out.println("StudentPercentage:"+studentPercentage);
+     		System.out.println("StudentAge:"+studentAge);
+     		System.out.println("StudentGender:"+studentGender);
+     		System.out.println("StudentFathername:"+studentFathername);
+     		System.out.println("StudentMothername:"+studentMOthername);
+           
+     		
+     		
+     	}
+
+}

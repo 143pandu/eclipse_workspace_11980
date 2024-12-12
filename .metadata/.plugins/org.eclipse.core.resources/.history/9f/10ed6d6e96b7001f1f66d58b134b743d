@@ -1,0 +1,9 @@
+package myProject;
+
+public class EmployeeTest {
+
+	public EmployeeTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

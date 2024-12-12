@@ -1,0 +1,9 @@
+package com.edubridge.app3;
+
+public class SimpleCalc {
+
+	public SimpleCalc() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,34 @@
+
+public class Array {
+
+	public static void main(String[] args) {
+		//1.Array Declaration
+		int[] arr1;//recommended
+		int[]arr2;
+		int[]arr3;
+		//int[10] arr4;//CE
+		
+		//2. Array Creation
+		arr1 =new int[10];
+		//arr2 = new int[];//RE
+		arr2 = new int[0];
+		
+		//3.Array Initialization
+		arr1[0] = 44;
+		arr1[1] = 55;
+		arr1[2] = 66;
+		
+		//4.Access Array Element
+		System.out.println(arr1[0]);
+		System.out.println(arr1[1]);
+		System.out.println(arr1[2]);
+		System.out.println(arr1[3]);
+		System.out.println(arr1[9]);
+		System.out.println(arr1[10]);//RE
+		
+		
+		
+
+	}
+
+}
