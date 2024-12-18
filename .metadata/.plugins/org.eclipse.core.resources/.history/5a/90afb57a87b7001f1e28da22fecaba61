@@ -1,9 +1,0 @@
-package com.edubridge.app2;
-
-public class CalcTest {
-
-	public CalcTest() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
